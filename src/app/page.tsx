@@ -1,8 +1,11 @@
+import { MainParallaxDemo } from "@/components/features/main-demo";
 import ContainerFluid from "@/components/ui/ContainerFluid";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center my-4">
+      <MainParallaxDemo />
+
       <ContainerFluid>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
