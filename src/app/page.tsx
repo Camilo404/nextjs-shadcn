@@ -1,10 +1,13 @@
-import { MainParallaxDemo } from "@/components/features/main-demo";
+import { MainParallaxDemo } from "@/components/features/main-parallax";
+import { ThreeDCardDemo } from "@/components/features/3d-card";
 import ContainerFluid from "@/components/ui/ContainerFluid";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center my-4">
-      <MainParallaxDemo />
+      <MainParallaxDemo></MainParallaxDemo>
+
+      <ThreeDCardDemo></ThreeDCardDemo>
 
       <ContainerFluid>
         <p>
